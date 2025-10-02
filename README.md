@@ -23,7 +23,7 @@ The application allows performing **CRUD operations (Create, Read, Update, Delet
    git clone https://github.com/your-username/EmployeeDatabaseApp.git
    cd EmployeeDatabaseApp
    
-3. **Create database and table in MySQL/PostgreSQL**:
+2. **Create database and table in MySQL/PostgreSQL**:
    CREATE DATABASE employee_db;
    USE employee_db;
    CREATE TABLE employees (
@@ -37,10 +37,10 @@ The application allows performing **CRUD operations (Create, Read, Update, Delet
    static final String USER = "root";       // Your DB username
    static final String PASS = "your_password"; // Your DB password
    
-5. **Add JDBC Driver to project**:
+4. **Add JDBC Driver to project**:
    MySQL → mysql-connector-j-8.0.xx.jar
    
-7. **Compile and Run**:
+5. **Compile and Run**:
    javac -cp ".;mysql-connector-j-8.0.xx.jar" Task7_EmployeeDatabaseApp.java
    java -cp ".;mysql-connector-j-8.0.xx.jar" Task7_EmployeeDatabaseApp
    
