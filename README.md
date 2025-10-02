@@ -34,11 +34,11 @@ CREATE TABLE employees (
 
 # 3. Update database connection in Task7_EmployeeDatabaseApp.java
 static final String URL = "jdbc:mysql://localhost:3306/employee_db";
-static final String USER = "root";       # Your DB username
-static final String PASS = "your_password"; # Your DB password
+static final String USER = "root";       // Your DB username
+static final String PASS = "your_password"; // Your DB password
 
 # 4. Add JDBC Driver to project
-# MySQL → mysql-connector-j-8.0.xx.jar
+MySQL → mysql-connector-j-8.0.xx.jar
 
 # 5. Compile and Run the program
 javac -cp ".;mysql-connector-j-8.0.xx.jar" Task7_EmployeeDatabaseApp.java
