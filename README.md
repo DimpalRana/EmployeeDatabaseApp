@@ -45,17 +45,17 @@ javac -cp ".;mysql-connector-j-8.0.xx.jar" Task7_EmployeeDatabaseApp.java
 java -cp ".;mysql-connector-j-8.0.xx.jar" Task7_EmployeeDatabaseApp
 
 # 6. Use the menu in terminal
-# 1 → Add Employee
-# 2 → View Employees
-# 3 → Update Employee Salary
-# 4 → Delete Employee
-# 5 → Exit
+ 1 → Add Employee
+ 2 → View Employees
+ 3 → Update Employee Salary
+ 4 → Delete Employee
+ 5 → Exit
 
 # 💡 Learning Outcomes
-# - Practiced Java Database Connectivity (JDBC)
-# - Implemented CRUD operations with SQL
-# - Learned PreparedStatement & ResultSet handling
-# - Developed a menu-driven CLI application interacting with a relational database
+ - Practiced Java Database Connectivity (JDBC)
+ - Implemented CRUD operations with SQL
+ - Learned PreparedStatement & ResultSet handling
+ - Developed a menu-driven CLI application interacting with a relational database
 
 # 👤 Author
-# Dimpal Rana
+ Dimpal Rana
