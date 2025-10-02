@@ -57,6 +57,6 @@ The application allows performing **CRUD operations (Create, Read, Update, Delet
   Learned PreparedStatement & ResultSet handling
   Developed a menu-driven CLI application interacting with a relational database
   
-###👤 Author
+##👤 Author
 Dimpal Rana
   
