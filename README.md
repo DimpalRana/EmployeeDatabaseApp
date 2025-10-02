@@ -51,10 +51,10 @@ The application allows performing **CRUD operations (Create, Read, Update, Delet
    4 → Delete Employee
    5 → Exit
    
-##💡Learning Outcomes
-  Practiced Java Database Connectivity (JDBC)
-  Implemented CRUD operations with SQL
-  Learned PreparedStatement & ResultSet handling
+##💡Learning Outcomes\n
+  Practiced Java Database Connectivity (JDBC)\n
+  Implemented CRUD operations with SQL\n
+  Learned PreparedStatement & ResultSet handling\n
   Developed a menu-driven CLI application interacting with a relational database
   
 ##👤 Author
