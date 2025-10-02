@@ -19,11 +19,11 @@ The application allows performing **CRUD operations (Create, Read, Update, Delet
 
 ## ⚙️ How to Run
 bash
-# 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/your-username/EmployeeDatabaseApp.git
 cd EmployeeDatabaseApp
 
-# 2. Create database and table in MySQL/PostgreSQL
+## 2. Create database and table in MySQL/PostgreSQL
 CREATE DATABASE employee_db;
 USE employee_db;
 CREATE TABLE employees (
@@ -32,30 +32,30 @@ CREATE TABLE employees (
     salary DOUBLE
 );
 
-# 3. Update database connection in Task7_EmployeeDatabaseApp.java
+## 3. Update database connection in Task7_EmployeeDatabaseApp.java
 static final String URL = "jdbc:mysql://localhost:3306/employee_db";
 static final String USER = "root";       // Your DB username
 static final String PASS = "your_password"; // Your DB password
 
-# 4. Add JDBC Driver to project
+## 4. Add JDBC Driver to project
 MySQL → mysql-connector-j-8.0.xx.jar
 
-# 5. Compile and Run the program
+## 5. Compile and Run the program
 javac -cp ".;mysql-connector-j-8.0.xx.jar" Task7_EmployeeDatabaseApp.java
 java -cp ".;mysql-connector-j-8.0.xx.jar" Task7_EmployeeDatabaseApp
 
-# 6. Use the menu in terminal
+## 6. Use the menu in terminal
  1 → Add Employee
  2 → View Employees
  3 → Update Employee Salary
  4 → Delete Employee
  5 → Exit
 
-# 💡 Learning Outcomes
+## 💡 Learning Outcomes
  - Practiced Java Database Connectivity (JDBC)
  - Implemented CRUD operations with SQL
  - Learned PreparedStatement & ResultSet handling
  - Developed a menu-driven CLI application interacting with a relational database
 
-# 👤 Author
+## 👤 Author
  Dimpal Rana
